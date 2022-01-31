@@ -1,0 +1,55 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-stretch: ultra-expanded;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Raleway', sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+
+.container {
+    background-color: white;
+    justify-content: center;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+    width: 375px;
+    text-align: center;
+    margin: 175px auto;
+    box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.100);
+}
+
+.container img {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 365px;
+}
+
+.qrText {
+    position: relative;
+    text-align: center;
+    margin: -10px auto 0;
+}
+
+.container .p1 {
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container .p2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: hsl(220, 15%, 55%);
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
