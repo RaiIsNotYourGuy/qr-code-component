@@ -53,3 +53,23 @@ body {
     padding-left: 25px;
     padding-right: 25px;
 }
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 75%;
+        padding: 10px;
+    }
+    .container img {
+        width: 75%;
+    }
+    .container .p1 {
+        font-size: 75%;
+    }
+    .container .p2 {
+        font-size: 75%;
+    }
+    .container .qrCode {
+        margin-left: -45px;
+        margin-right: -45px;
+    }
+}
